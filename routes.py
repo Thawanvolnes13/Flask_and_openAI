@@ -16,7 +16,7 @@ def search():
     search_variable=request.form['name-search']
         
     try:    
-        ia.api_key= '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'
+        ia.api_key= 'sua chave api'
         response = ia.Image.create(
             prompt = str(search_variable),
             n = 1,
