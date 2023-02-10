@@ -5,8 +5,6 @@ import openai as ia
 
 app = Flask(__name__)
 
-
-
 @app.route('/')
 def inicio():
     print("hello")
@@ -16,8 +14,6 @@ def inicio():
 def search():
     
     search_variable=request.form['name-search']
-    
-    
         
     try:    
         ia.api_key= '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'
